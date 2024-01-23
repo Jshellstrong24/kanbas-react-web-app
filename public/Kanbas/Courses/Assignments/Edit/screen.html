@@ -1,0 +1,206 @@
+<table>
+    <tbody>
+        <tr>
+            <!-- Kanbas Navigation (Kanbas/Navigation/index.HTML) -->
+            <td valign="top">
+                <ul>
+                    <li>
+                        <a href="/Kanbas/Account/Profile/screen.html">Account</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Dashboard/screen.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Courses/Home/screen.html">Courses</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Calendar/index.html">Calendar</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Inbox/index.html">Inbox</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/History/index.html">History</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Studio/index.html">Studio</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Commons/index.html">Commons</a>
+                    </li>
+                    <li>
+                        <a href="/Kanbas/Help/index.html">Help</a>
+                    </li>
+                </ul>
+            </td>
+            <!-- Course Navigation (Kanbas/Courses/Navigation/index.HTML) -->
+            <td valign="top">
+
+                <body>
+                    <ul>
+                        <li>
+                            <a href="/Kanbas/Courses/Home/screen.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Modules/screen.html">Modules</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Piazza/index.html">Piazza</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Zoom/screen.html">Zoom Meetings</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Assignments/screen.html">Assignments</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Quizzes/screen.html">Quizzes</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Grades/screen.html">Grades</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/People/screen.html">People</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Panopto/screen.html">Panopto</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Discussions/screen.html">Discussions</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Announcements/screen.html">Announcements</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Pages/screen.html">Pages</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Files/screen.html">Files</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Rubrics/screen.html">Rubrics</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Outcomes/screen.html">Outcomes</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Collaborations/screen.html">Collaborations</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Syllabus/screen.html">Syllabus</a>
+                        </li>
+                        <li>
+                            <a href="/Kanbas/Courses/Settings/screen.html">Settings</a>
+                        </li>
+                    </ul>
+                </body>
+            </td>
+            <!-- Edit Assignment (Kanbas/Courses/Assignments/Edit/index.html) -->
+            <td>
+                <select>
+                    <option>SpeedGrader</option>
+                </select>
+
+                <h3>Assignment Name</h3>
+                <input type="text" name="wd-assignment-name" value="Assignment 1" /><br /><br />
+
+                <textarea name="wd-assignment-description" rows="4" cols="50">
+            This is the assignment description
+        
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsum laudantium veniam optio, dicta quas voluptas facilis alias laborum voluptatibus maiores ducimus dolorem molestiae labore, harum rerum? Quis, quam vitae!
+            </textarea><br /></br />
+                <table>
+                    <tbody>
+                        <!-- Points -->
+                        <tr>
+                            <td valign="top"><label>Points</label></td>
+                            <td><input type="number" value="100" min="0" max="100" /><br /><br /></td>
+                        </tr>
+                        <!-- Assignment group -->
+                        <tr>
+                            <td valign="top"><label>Assignment Group</label></td>
+                            <td>
+                                <select>
+                                    <option>ASSIGNMENT</option>
+                                    <option>QUIZ</option>
+                                    <option>EXAM</option>
+                                    <option>PROJECT</option>
+                                </select>
+                                <br /><br />
+                            </td>
+                        </tr>
+                        <!-- Display Grade As -->
+                        <tr>
+                            <td valign="top"><label>Display Grade as</label></td>
+                            <td>
+                                <select>
+                                    <option>Percentage</option>
+                                    <option>Decimal</option>
+                                </select>
+                                <br /><br />
+                            </td>
+                        </tr>
+                        <!-- Submission Type -->
+                        <tr>
+                            <td valign="top"><label>Submission Type</label></td>
+                            <td>
+                                <select>
+                                    <option>Online</option>
+                                    <option>Not Online?</option>
+                                </select>
+                                <br /><br />
+                            </td>
+                        </tr>
+                        <!-- Online Entry Options -->
+                        <tr>
+                            <td valign="top"><label>Online Entry Options</label></td>
+                            <td>
+                                <input type="checkbox" name="wd-submission-type" value="TEXT" checked />
+                                <label>Text Entry</label> <br />
+                                <input type="checkbox" name="wd-submission-type" value="WEBSITE" />
+                                <label>Website URL</label> <br />
+                                <input type="checkbox" name="wd-submission-type" value="MEDIA" />
+                                <label>Media Recordings</label> <br />
+                                <input type="checkbox" name="wd-submission-type" value="ANNOTATIONS" checked />
+                                <label>Student Annotations</label> <br />
+                                <input type="checkbox" name="wd-submission-type" value="FILE" checked />
+                                <label>File Uploads</label> <br />
+                                <br />
+                            </td>
+                        </tr>
+                        <!-- Assign -->
+                        <tr>
+                            <td valign="top"><label>Asign</label></td>
+                            <td>
+                                <label>Assign to</label>
+                                <input type="text" name="wd-assign-to" value="Everyone" /><br /><br />
+
+                                Due:<br />
+                                <input type="date" name="wd-assignment-due-date" min="2023-01-05" max="2023-01-23"
+                                    value="2023-01-15" /><br /><br />
+                                Available from:<br />
+                                <input type="date" name="wd-assignment-available-date" min="2023-01-05" max="2023-01-23"
+                                    value="2023-01-15" /><br /><br />
+                                Available unitl:<br />
+                                <input type="date" name="wd-assignment-available-until-date" min="2023-01-05"
+                                    max="2023-01-23" value="2023-01-15" /><br /><br />
+                            </td>
+                        </tr>
+                        <!-- Cancel and Save Buttons -->
+                        <tr>
+                            <td>
+                                <a href="/Kanbas/Courses/Assignments/screen.html">
+                                    <button>Cancel</button>
+                                </a>
+
+                                <a href="/Kanbas/Courses/Assignments/screen.html">
+                                    <button>Save</button>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
