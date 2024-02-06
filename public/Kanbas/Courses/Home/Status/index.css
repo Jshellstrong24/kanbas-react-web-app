@@ -1,0 +1,11 @@
+.button {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 6px 15px;
+    width: 30%;
+    text-align: left;
+}
+
+.tbl-button {
+    width: 100%;
+}
