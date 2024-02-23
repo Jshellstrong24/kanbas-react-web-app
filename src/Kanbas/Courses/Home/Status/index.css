@@ -1,0 +1,12 @@
+.sideButton {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 6px 15px;
+    width: 85%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.tbl-button {
+    width: auto;
+}
