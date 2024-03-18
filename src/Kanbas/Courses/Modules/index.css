@@ -33,6 +33,23 @@
     border-radius: 12px;
     padding: 6px 15px;
     margin-right: 5px;
+    margin-left: 5px;
     width: auto;
     text-align: center;
+}
+
+.input {
+  width: 45%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.textarea{
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
 }

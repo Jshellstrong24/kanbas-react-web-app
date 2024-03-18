@@ -8,7 +8,7 @@ import Modules from "./Modules";
 import HomeScreen from "./Home/screen";
 import Assignments from "./Assignments";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
     const course = courses.find((course) => course._id === courseId);
     let location = useLocation().pathname.split("/").splice(4)

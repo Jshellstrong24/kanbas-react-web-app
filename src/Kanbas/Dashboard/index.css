@@ -1,0 +1,29 @@
+.button {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 6px 15px;
+    margin-right: 5px;
+    width: auto;
+    text-align: center;
+}
+
+.deleteButton {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 4px 10px;
+    margin-right: 5px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(237, 65, 65);
+}
+
+.editButton {
+    font-size: 14px;
+    border-radius: 12px;
+    padding: 4px 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: auto;
+    text-align: center;
+    background-color: rgb(206, 212, 45);
+}
